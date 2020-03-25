@@ -32,6 +32,7 @@ then
     pip install setuptools==39.0.1
 fi
 
+sed -i '/psycopg2/c\psycopg2' requirements.txt
 python setup.py develop
 pip install -r requirements.txt
 pip install -r dev-requirements.txt
