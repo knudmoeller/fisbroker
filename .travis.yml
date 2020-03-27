@@ -2,8 +2,7 @@ dist: trusty
 group: deprecated-2017Q4
 
 language: python
-
-# sudo: required
+sudo: required
 python:
     - "2.7"
 env:
@@ -12,7 +11,6 @@ install:
     - bash bin/travis-build.bash
     - pip install coveralls
 services:
-    - redis
     - postgresql
 script: sh bin/travis-run.sh
 after_success:
