@@ -59,9 +59,8 @@ cd ckan
 paster db init -c test-core.ini
 cd -
 
-echo "Installing ckanext-validationapi and its requirements..."
+echo "Installing ckanext-fisbroker and its requirements..."
 python setup.py develop
-pip install -r dev-requirements.txt
 
 echo "Moving test.ini into a subdir..."
 mkdir subdir
