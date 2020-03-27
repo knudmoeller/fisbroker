@@ -61,6 +61,7 @@ cd -
 
 echo "Installing ckanext-fisbroker and its requirements..."
 python setup.py develop
+pip install -r travis-requirements.txt
 
 echo "Moving test.ini into a subdir..."
 mkdir subdir
