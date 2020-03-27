@@ -33,6 +33,11 @@ then
 fi
 
 python setup.py develop
+# To avoid error:
+# Error: could not determine PostgreSQL version from '10.1'
+# we need newer psycopg2 and corresponding exc name change
+sed -i -e 's/psycopg2==2.4.5/psycopg2==2.8.2/' requirements.txt
+sed -i -e 's/except sqlalchemy.exc.InternalError:/except (sqlalchemy.exc.InternalError, sqlalchemy.exc.DBAPIError):/' ckan/config/environment.py
 pip install -r requirements.txt
 pip install -r dev-requirements.txt
 cd -
@@ -54,7 +59,7 @@ cd ckan
 paster db init -c test-core.ini
 cd -
 
-echo "Installing ckanext-extensiontesting and its requirements..."
+echo "Installing ckanext-validationapi and its requirements..."
 python setup.py develop
 pip install -r dev-requirements.txt
 
