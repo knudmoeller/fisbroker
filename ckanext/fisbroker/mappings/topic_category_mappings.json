@@ -1,0 +1,307 @@
+{
+    "sources": [
+        { 
+            "link": "https://wiki.esipfed.org/ISO_19115_and_19115-2_CodeList_Dictionaries#MD_TopicCategoryCode",
+            "comment": "Definition and examples of MD_TopicCategoryCode"
+        },
+        {
+            "link": "https://wiki.gdi-de.org/display/gdk/Anbindung+der+GDI-DE+an+GovData",
+            "comment": "Mapping of MD_TopicCategoryCode to MDR Data Themes (DCAT-AP), incl. German labels. Used for mapping the GDI-DE CSW to govdata.de."
+        }
+    ],
+    "mapping": {
+        "farming": {
+            "md_topic_code": "farming",
+            "md_topic_label": "Landwirtschaft",
+            "berlin_code": "umwelt",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "AGRI",
+                    "label": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel"
+                }
+            ]
+        },
+        "biota": {
+            "md_topic_code": "biota",
+            "md_topic_label": "Biologie",
+            "berlin_code": "umwelt",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                }
+            ]
+        },
+        "boundaries": {
+            "md_topic_code": "boundaries",
+            "md_topic_label": "Grenzen",
+            "berlin_code": "verwaltung",
+            "dcat_codes": [
+                {
+                    "code": "REGI",
+                    "label": "Regionen und Städte"
+                },
+                {
+                    "code": "GOVE",
+                    "label": "Regierung und öffentlicher Sektor"
+                }
+            ]
+        },
+        "climatologyMeteorologyAtmosphere": {
+            "md_topic_code": "climatologyMeteorologyAtmosphere",
+            "md_topic_label": "Atmosphäre",
+            "berlin_code": "umwelt",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "TECH",
+                    "label": "Wissenschaft und Technologie"
+                }
+            ]
+        },
+        "economy": {
+            "md_topic_code": "economy",
+            "md_topic_label": "Wirtschaft",
+            "berlin_code": "wirtschaft",
+            "dcat_codes": [
+                {
+                    "code": "ECON",
+                    "label": "Wirtschaft und Finanzen"
+                }
+            ]
+        },
+        "elevation": {
+            "md_topic_code": "elevation",
+            "md_topic_label": "Höhenangaben",
+            "berlin_code": "geo",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "GOVE",
+                    "label": "Regierung und öffentlicher Sektor"
+                },
+                {
+                    "code": "TECH",
+                    "label": "Wissenschaft und Technologie"
+                }
+            ]
+        },
+        "environment": {
+            "md_topic_code": "environment",
+            "md_topic_label": "Umwelt",
+            "berlin_code": "umwelt",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                }
+            ]
+        },
+        "geoscientificInformation": {
+            "md_topic_code": "geoscientificInformation",
+            "md_topic_label": "Geowissenschaften",
+            "berlin_code": "geo",
+            "dcat_codes": [
+                {
+                    "code": "REGI",
+                    "label": "Regionen und Städte"
+                },
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "TECH",
+                    "label": "Wissenschaft und Technologie"
+                }
+            ]
+        },
+        "health": {
+            "md_topic_code": "health",
+            "md_topic_label": "Gesundheitswesen",
+            "berlin_code": "gesundheit",
+            "dcat_codes": [
+                {
+                    "code": "HEAL",
+                    "label": "Gesundheit"
+                }
+            ]
+        },
+        "imageryBaseMapsEarthCover": {
+            "md_topic_code": "imageryBaseMapsEarthCover",
+            "md_topic_label": "Oberflächenbeschreibung",
+            "berlin_code": "geo",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "GOVE",
+                    "label": "Regierung und öffentlicher Sektor"
+                },
+                {
+                    "code": "TECH",
+                    "label": "Wissenschaft und Technologie"
+                },
+                {
+                    "code": "REGI",
+                    "label": "Regionen und Städte"
+                },
+                {
+                    "code": "AGRI",
+                    "label": "Landwirtschaft"
+                }
+            ]
+        },
+        "intelligenceMilitary": {
+            "md_topic_code": "intelligenceMilitary",
+            "md_topic_label": "Militär und Aufklärung",
+            "berlin_code": "sicherheit",
+            "dcat_codes": [
+                {
+                    "code": "JUST",
+                    "label": "Justiz"
+                }
+            ]
+        },
+        "inlandWaters": {
+            "md_topic_code": "inlandWaters",
+            "md_topic_label": "Binnengewässer",
+            "berlin_code": "umwelt",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "TRAN",
+                    "label": "Verkehr"
+                },
+                {
+                    "code": "AGRI",
+                    "label": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel"
+                }
+            ]
+        },
+        "location": {
+            "md_topic_code": "location",
+            "md_topic_label": "Ortsangaben",
+            "berlin_code": "geo",
+            "dcat_codes": [
+                {
+                    "code": "REGI",
+                    "label": "Regionen und Städte"
+                },
+                {
+                    "code": "GOVE",
+                    "label": "Regierung und öffentlicher Sektor"
+                }
+            ]
+        },
+        "oceans": {
+            "md_topic_code": "oceans",
+            "md_topic_label": "Meere",
+            "berlin_code": "umwelt",
+            "dcat_codes": [
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "TRAN",
+                    "label": "Verkehr"
+                },
+                {
+                    "code": "AGRI",
+                    "label": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel"
+                }
+            ]
+        },
+        "planningCadastre": {
+            "md_topic_code": "planningCadastre",
+            "md_topic_label": "Planungsunterlagen, Kataster",
+            "berlin_code": "verwaltung",
+            "dcat_codes": [
+                {
+                    "code": "REGI",
+                    "label": "Regionen und Städte"
+                },
+                {
+                    "code": "GOVE",
+                    "label": "Regierung und öffentlicher Sektor"
+                }
+            ]
+        },
+        "society": {
+            "md_topic_code": "society",
+            "md_topic_label": "Gesellschaft",
+            "berlin_code": "sozial",
+            "dcat_codes": [
+                {
+                    "code": "SOCI",
+                    "label": "Bevölkerung und Gesellschaft"
+                },
+                {
+                    "code": "EDUC",
+                    "label": "Bildung, Kultur und Sport"
+                }
+            ]
+        },
+        "structure": {
+            "md_topic_code": "structure",
+            "md_topic_label": "Bauwerke",
+            "berlin_code": "geo",
+            "dcat_codes": [
+                {
+                    "code": "REGI",
+                    "label": "Regionen und Städte"
+                },
+                {
+                    "code": "TRAN",
+                    "label": "Verkehr"
+                }
+            ]
+        },
+        "transportation": {
+            "md_topic_code": "transportation",
+            "md_topic_label": "Verkehrswesen",
+            "berlin_code": "verkehr",
+            "dcat_codes": [
+                {
+                    "code": "TRAN",
+                    "label": "Verkehr"
+                }
+            ]
+        },
+        "utilitiesCommunication": {
+            "md_topic_code": "utilitiesCommunication",
+            "md_topic_label": "Ver- und Entsorgung, Kommunikation",
+            "berlin_code": "verentsorgung",
+            "dcat_codes": [
+                {
+                    "code": "ENER",
+                    "label": "Energie"
+                },
+                {
+                    "code": "ENVI",
+                    "label": "Umwelt"
+                },
+                {
+                    "code": "GOVE",
+                    "label": "Regierung und öffentlicher Sektor"
+                }
+            ]
+        }
+    }
+}
